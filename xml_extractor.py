@@ -123,16 +123,19 @@ class XmlElement:
 ###############################
 #--ESTRAZIONE CITAZIONI CELLS-#
 ###############################
-    def extract_cell_citations(self, cell_content):
-        if cell_content is None or cell_content.text is None:
-            #print("Il contenuto della cella è vuoto.")
+    def extract_cell_citations(self, cell_text):
+        if cell_text is None:
+            print("Il testo della cella è vuoto.")
             return []
 
-        cell_citations = self.root.xpath(f'//p[contains(text(), "{cell_content.text}")]')
+        xpath_expression = f'//p[contains(text(), $cell_text)]'
+        cell_citations = self.root.xpath(xpath_expression, cell_text=cell_text)
+    
         citazioni_cella = [ct.text for ct in cell_citations]
     
         #print(citazioni_cella)
         return citazioni_cella
+
 
 
 ########################
