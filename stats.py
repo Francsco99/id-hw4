@@ -2,6 +2,7 @@ import os
 import json
 from collections import Counter
 import csv
+import time
 
 # Definisci le variabili per i dati da raccogliere
 num_files = 0
@@ -13,6 +14,11 @@ num_articles_without_abstract = 0
 num_articles_without_id = 0
 all_keywords = []
 keyword_counter = Counter()
+articles_per_table = Counter()
+articles_per_figure = Counter()
+
+# Inizializza il timer
+start_time = time.time()
 
 json_folder = "/Users/fspezzano/miniconda3/envs/desiree/json"
 
@@ -26,9 +32,11 @@ for filename in os.listdir(json_folder):
             num_tables += len(data['content']['tables'])
             for table in data['content']['tables']:
                 num_cells += len(table['cells'])
+            articles_per_table[len(table['cells'])] += 1
                 
             # Conta il numero di immagini
             num_figures += len(data['content']['figures'])
+            articles_per_figure[len(data['content']['figures'])] += 1
             
             # Verifica la presenza di titolo, abstract e id
             if not data['content']['title']:
@@ -43,6 +51,15 @@ for filename in os.listdir(json_folder):
             keyword_counter.update(data['content']['keywords'])
 
             num_files += 1
+            
+            if num_files % 500 == 0:
+                elapsed_time = time.time() - start_time
+                if elapsed_time > 60:
+                    # Stampa il tempo trascorso in minuti
+                    elapsed_time_minutes = elapsed_time / 60
+                    print(f"{num_files} file processati. Tempo trascorso: {elapsed_time_minutes:.2f} minuti.")
+                else:
+                    print(f"{num_files} file processati. Tempo trascorso: {elapsed_time:.2f} secondi.")
 
 # Calcola le medie
 avg_tables_per_document = num_tables / num_files if num_files > 0 else 0
@@ -63,57 +80,23 @@ print(f"Numero di articoli senza abstract: {num_articles_without_abstract}")
 print(f"Numero di articoli senza id: {num_articles_without_id}")
 
 # Keyword più ricorrenti
-most_common_keywords = keyword_counter.most_common(10)
+most_common_keywords = keyword_counter.most_common(5)
 print(f"\nKeyword più ricorrenti:")
 for keyword, count in most_common_keywords:
     print(f"{keyword}: {count}")
 
 print(f"\nMedia di keyword per articolo: {avg_keywords_per_article:.2f}")
 
+# Stampa il numero di articoli per numero di tabelle (ordinato)
+print("\nNumero di articoli per numero di tabelle (ordinato per numero di articoli):")
+sorted_articles_per_table = sorted(articles_per_table.items(), key=lambda x: x[1], reverse=True)
+for num_tables, count in sorted_articles_per_table:
+    print(f"{num_tables} tabelle: {count} articoli")
 
-# Definisci il percorso del file CSV di output
-csv_file_path = "/Users/fspezzano/miniconda3/envs/desiree/dati_statistici.csv"
-
-# Scrivi i dati nel file CSV
-with open(csv_file_path, 'w', newline='') as csvfile:
-    # Definisci le colonne del CSV
-    fieldnames = ['Numero di file', 'Numero di tabelle', 'Numero di immagini', 
-                  'Numero di celle', 'Media di tabelle per documento',
-                  'Media di immagini per documento', 'Media di celle per tabella',
-                  'Numero di articoli senza titolo', 'Numero di articoli senza abstract',
-                  'Numero di articoli senza id', 'Media di keyword per articolo']
-
-    # Crea un writer CSV
-    csv_writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-
-    # Scrivi l'intestazione
-    csv_writer.writeheader()
-
-    # Scrivi i dati
-    csv_writer.writerow({
-        'Numero di file': num_files,
-        'Numero di tabelle': num_tables,
-        'Numero di immagini': num_figures,
-        'Numero di celle': num_cells,
-        'Media di tabelle per documento': avg_tables_per_document,
-        'Media di immagini per documento': avg_figures_per_article,
-        'Media di celle per tabella': avg_cells_per_table,
-        'Numero di articoli senza titolo': num_articles_without_title,
-        'Numero di articoli senza abstract': num_articles_without_abstract,
-        'Numero di articoli senza id': num_articles_without_id,
-        'Media di keyword per articolo': avg_keywords_per_article
-    })
-
-# Aggiungi anche le keyword più ricorrenti al CSV
-with open(csv_file_path, 'a', newline='') as csvfile:
-    # Crea un writer CSV
-    csv_writer = csv.writer(csvfile)
-
-    # Scrivi l'intestazione per le keyword
-    csv_writer.writerow(['Keyword', 'Frequenza'])
-
-    # Scrivi i dati delle keyword
-    for keyword, count in most_common_keywords:
-        csv_writer.writerow([keyword, count])
-
-print(f"I dati sono stati esportati correttamente nel file CSV: {csv_file_path}")
+# Stampa il numero di articoli per numero di figure (ordinato)
+print("\nNumero di articoli per numero di figure (ordinato per numero di articoli):")
+sorted_articles_per_figure = sorted(articles_per_figure.items(), key=lambda x: x[1], reverse=True)
+for num_figures, count in sorted_articles_per_figure:
+    print(f"{num_figures} figure: {count} articoli")
+    
+    
