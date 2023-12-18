@@ -1,0 +1,353 @@
+{
+  "pmcid": "PMC515309",
+  "content": {
+    "title": "The planetary biology of cytochrome P450 aromatases",
+    "abstract": "<sec xmlns:xlink=\"http://www.w3.org/1999/xlink\"><title>Background</title><p>Joining a model for the molecular evolution of a protein family to the paleontological and geological records (geobiology), and then to the chemical structures of substrates, products, and protein folds, is emerging as a broad strategy for generating hypotheses concerning function in a post-genomic world. This strategy expands systems biology to a planetary context, necessary for a notion of fitness to underlie (as it must) any discussion of function within a biomolecular system.</p></sec><sec xmlns:xlink=\"http://www.w3.org/1999/xlink\"><title>Results</title><p>Here, we report an example of such an expansion, where tools from planetary biology were used to analyze three genes from the pig <italic>Sus scrofa </italic>that encode cytochrome P450 aromatases\u2013enzymes that convert androgens into estrogens. The evolutionary history of the vertebrate aromatase gene family was reconstructed. Transition redundant exchange silent substitution metrics were used to interpolate dates for the divergence of family members, the paleontological record was consulted to identify changes in physiology that correlated in time with the change in molecular behavior, and new aromatase sequences from peccary were obtained. Metrics that detect changing function in proteins were then applied, including K<sub>A</sub>/K<sub>S </sub>values and those that exploit structural biology. These identified specific amino acid replacements that were associated with changing substrate and product specificity during the time of presumed adaptive change. The combined analysis suggests that aromatase paralogs arose in pigs as a result of selection for Suoidea with larger litters than their ancestors, and permitted the Suoidea to survive the global climatic trauma that began in the Eocene.</p></sec><sec xmlns:xlink=\"http://www.w3.org/1999/xlink\"><title>Conclusions</title><p>This combination of bioinformatics analysis, molecular evolution, paleontology, cladistics, global climatology, structural biology, and organic chemistry serves as a paradigm in planetary biology. As the geological, paleontological, and genomic records improve, this approach should become widely useful to make systems biology statements about high-level function for biomolecular systems.</p></sec>",
+    "keywords": [],
+    "tables": [
+      {
+        "table_id": "T1",
+        "body": "<thead xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tr><td align=\"left\">Terrestrial vertebrates</td><td align=\"center\">Non-synonymous substitutions</td><td align=\"center\">Synonymous substitutions</td><td align=\"center\">Totals</td></tr></thead><tbody xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tr><td align=\"left\">Stem pig duplicates (Branch '1' in Figure 5)<xref ref-type=\"bibr\" rid=\"B44\">44</xref></td><td align=\"center\">23</td><td align=\"center\">9</td><td align=\"center\">32</td></tr><tr><td align=\"left\">Remaining branches</td><td align=\"center\">598</td><td align=\"center\">1449</td><td align=\"center\">2047</td></tr><tr><td align=\"left\">Totals</td><td align=\"center\">621</td><td align=\"center\">1458</td><td align=\"center\">2079</td></tr></tbody>",
+        "caption": "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">Frequency distributions of stem pig duplication substitutions versus substitutions on all other terrestrial vertebrate branches<xref ref-type=\"bibr\" rid=\"B44\">44</xref></p>",
+        "caption_citations": [
+          [
+            "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B44\"><citation citation-type=\"book\"><person-group person-group-type=\"author\"><name><surname>Nei</surname><given-names>M</given-names></name><name><surname>Kumar</surname><given-names>S</given-names></name></person-group><source>Molecular Evolution and Phylogenetics</source><year>2000</year><publisher-name>New York: Oxford University Press</publisher-name></citation></ref>"
+          ]
+        ],
+        "foots": [
+          "Fisher's exact test, ",
+          "= 0.00000094784 [44]."
+        ],
+        "paragraphs": [
+          {
+            "text": [
+              "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">A complete maximum likelihood analysis of the aromatase gene family was performed using the PAUP and PAML programs. The resulting tree, generated in PAUP, is shown in Figure <xref ref-type=\"fig\" rid=\"F5\">5</xref>, with parameters estimated using PAML. Once more, the generation of paralogs in the pig was found to have occurred after the divergence of pigs from oxen. A high K<sub>A</sub>/K<sub>S </sub>value (0.93) was again found in the divergence of the swine isoforms on the branch leading to the ancestor of the placental and embryonic enzymes following their divergence from the pig ovarian enzyme. The distribution of substitutions along this branch is consistent with altered functional constraints for the placental and embryonic enzymes compared with their extinct and extant counterparts (Tables <xref ref-type=\"table\" rid=\"T1\">1</xref> and <xref ref-type=\"table\" rid=\"T2\">2</xref>) [<xref ref-type=\"bibr\" rid=\"B44\">44</xref>].</p>"
+            ],
+            "citations": [
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B44\"><citation citation-type=\"book\"><person-group person-group-type=\"author\"><name><surname>Nei</surname><given-names>M</given-names></name><name><surname>Kumar</surname><given-names>S</given-names></name></person-group><source>Molecular Evolution and Phylogenetics</source><year>2000</year><publisher-name>New York: Oxford University Press</publisher-name></citation></ref>"
+            ]
+          }
+        ],
+        "cells": [
+          {
+            "cell_content": "",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"left\">Terrestrial vertebrates</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">Non-synonymous substitutions</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">Synonymous substitutions</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">Totals</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"left\">Stem pig duplicates (Branch '1' in Figure 5)<xref ref-type=\"bibr\" rid=\"B44\">44</xref></td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">23</td>",
+            "cited_in": [
+              "23 gattini"
+            ]
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">9</td>",
+            "cited_in": [
+              "From the tree, the TREx distances from the ancestor of fetal and placental aromatase to the modern enzymes are 0.113-0.079 (using an endpoint of 0.54 to reflect equilibration at the silent sites), corresponding to a range in the time of divergence of 26\u201338 Ma. The TREx distances from the divergence of all of the porcine aromatases and the modern forms ranges from 0.082\u20130.116, corresponding to dates of divergence in the range of 27\u201339 Ma. This suggests that the three aromatase paralogs diverged in the late Eocene to mid Oligocene.",
+              "Notably, four of the sites (positions 47, 153, 219, 269) that undergo replacement during the emergence of pig placental aromatase from the last common ancestor are the same as four that arose in the emergence of the human aromatase from its last common ancestor. Of these, the amino acid replacements are identical at two sites (Thr \u2192 Met at site 153; His \u2192 Arg at site 269). The probability associated with randomly observing this pattern is extremely low (0.000021) [",
+              "We thank three anonymous reviewers for their invaluable comments. We also thank Alaric Falcon, Andres A. Kowalski and Ge Zhao for their assistance. This work was supported in part by N.I.H. grants GM 54075 and GM 067439-01 (S.A.B.), N.I.H. grant HD 21961 (R.C.M.S., F.A.S.) and USDA-NRICGP grant 98-35205-6739 (F.A.S., R.C.M.S.).",
+              "Cladogram of the order Artiodactyla showing the extant families and some selected extinct ones. Ruminantia includes the modern families Tragulidae, Giraffidae, Bovidae, Moschidae, and Cervidae, plus a number of extinct families. \"Dichobunidae\" is a paraphyletic assemblage of primitive taxa considered broadly ancestral to the later families. The interrelationships of the families reflect the \"traditional\" relationship based on morphology [85]. Different arrangements based on molecular information [86, 87] would alter the placement of the Camelidae and Hippopotamidae but would make no difference to the arguments presented here concerning the Suoidea. The interrelationships within the Suidae are based on information in several studies [32, 67, 88, 89]. Note that only a couple of extinct suid subfamilies are shown, and that only extant genera of Suinae are shown. Thick, medium-thick and thin lines represent family or above, subfamily and genera, respectively."
+            ]
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">32</td>",
+            "cited_in": [
+              "Cladogram of the order Artiodactyla showing the extant families and some selected extinct ones. Ruminantia includes the modern families Tragulidae, Giraffidae, Bovidae, Moschidae, and Cervidae, plus a number of extinct families. \"Dichobunidae\" is a paraphyletic assemblage of primitive taxa considered broadly ancestral to the later families. The interrelationships of the families reflect the \"traditional\" relationship based on morphology [85]. Different arrangements based on molecular information [86, 87] would alter the placement of the Camelidae and Hippopotamidae but would make no difference to the arguments presented here concerning the Suoidea. The interrelationships within the Suidae are based on information in several studies [32, 67, 88, 89]. Note that only a couple of extinct suid subfamilies are shown, and that only extant genera of Suinae are shown. Thick, medium-thick and thin lines represent family or above, subfamily and genera, respectively."
+            ]
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"left\">Remaining branches</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">598</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">1449</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">2047</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"left\">Totals</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">621</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">1458</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">2079</td>",
+            "cited_in": []
+          }
+        ]
+      },
+      {
+        "table_id": "T2",
+        "body": "<thead xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tr><td align=\"left\">Laurasiatheria subtree</td><td align=\"center\">Non-synonymous substitutions</td><td align=\"center\">Synonymous substitutions</td><td align=\"center\">Totals</td></tr></thead><tbody xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tr><td align=\"left\">Stem pig duplicates (Branch '1' in Figure 5)</td><td align=\"center\">23</td><td align=\"center\">9</td><td align=\"center\">32</td></tr><tr><td align=\"left\">Remaining branches</td><td align=\"center\">232</td><td align=\"center\">258</td><td align=\"center\">490</td></tr><tr><td align=\"left\">Totals</td><td align=\"center\">255</td><td align=\"center\">267</td><td align=\"center\">522</td></tr></tbody>",
+        "caption": "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">Frequency distributions of stem pig duplication substitutions versus substitutions within the Laurasiatheria subtree[<xref ref-type=\"bibr\" rid=\"B40\">40</xref>-<xref ref-type=\"bibr\" rid=\"B43\">43</xref>]</p>",
+        "caption_citations": [
+          [
+            "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B43\"><citation citation-type=\"journal\"><person-group person-group-type=\"author\"><name><surname>Gaucher</surname><given-names>EA</given-names></name><name><surname>Miyamoto</surname><given-names>MM</given-names></name><name><surname>Benner</surname><given-names>SA</given-names></name></person-group><article-title>Evolutionary, structural and biochemical evidence for a new interaction site of the leptin obesity protein</article-title><source>Genetics</source><year>2003</year><volume>163</volume><fpage>1549</fpage><lpage>1553</lpage><pub-id pub-id-type=\"pmid\">12702697</pub-id></citation></ref>",
+            "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B40\"><citation citation-type=\"journal\"><person-group person-group-type=\"author\"><name><surname>Benner</surname><given-names>SA</given-names></name><name><surname>Chamberlin</surname><given-names>SG</given-names></name><name><surname>Liberles</surname><given-names>DA</given-names></name><name><surname>Govindarajan</surname><given-names>S</given-names></name><name><surname>Knecht</surname><given-names>L</given-names></name></person-group><article-title>Functional inferences from reconstructed evolutionary biology involving rectified databases\u2013an evolutionarily grounded approach to functional genomics</article-title><source>Res Microbiol</source><year>2000</year><volume>151</volume><fpage>97</fpage><lpage>106</lpage><pub-id pub-id-type=\"pmid\">10865954</pub-id><pub-id pub-id-type=\"doi\">10.1016/S0923-2508(00)00123-6</pub-id></citation></ref>"
+          ]
+        ],
+        "foots": [
+          "Fisher's exact test, ",
+          "= 0.0056688 [44]."
+        ],
+        "paragraphs": [
+          {
+            "text": [
+              "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">A complete maximum likelihood analysis of the aromatase gene family was performed using the PAUP and PAML programs. The resulting tree, generated in PAUP, is shown in Figure <xref ref-type=\"fig\" rid=\"F5\">5</xref>, with parameters estimated using PAML. Once more, the generation of paralogs in the pig was found to have occurred after the divergence of pigs from oxen. A high K<sub>A</sub>/K<sub>S </sub>value (0.93) was again found in the divergence of the swine isoforms on the branch leading to the ancestor of the placental and embryonic enzymes following their divergence from the pig ovarian enzyme. The distribution of substitutions along this branch is consistent with altered functional constraints for the placental and embryonic enzymes compared with their extinct and extant counterparts (Tables <xref ref-type=\"table\" rid=\"T1\">1</xref> and <xref ref-type=\"table\" rid=\"T2\">2</xref>) [<xref ref-type=\"bibr\" rid=\"B44\">44</xref>].</p>"
+            ],
+            "citations": [
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B44\"><citation citation-type=\"book\"><person-group person-group-type=\"author\"><name><surname>Nei</surname><given-names>M</given-names></name><name><surname>Kumar</surname><given-names>S</given-names></name></person-group><source>Molecular Evolution and Phylogenetics</source><year>2000</year><publisher-name>New York: Oxford University Press</publisher-name></citation></ref>"
+            ]
+          }
+        ],
+        "cells": [
+          {
+            "cell_content": "",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"left\">Laurasiatheria subtree</td>",
+            "cited_in": [
+              "Frequency distributions of stem pig duplication substitutions versus substitutions within the Laurasiatheria subtree["
+            ]
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">Non-synonymous substitutions</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">Synonymous substitutions</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">Totals</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"left\">Stem pig duplicates (Branch '1' in Figure 5)</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">23</td>",
+            "cited_in": [
+              "23 gattini"
+            ]
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">9</td>",
+            "cited_in": [
+              "From the tree, the TREx distances from the ancestor of fetal and placental aromatase to the modern enzymes are 0.113-0.079 (using an endpoint of 0.54 to reflect equilibration at the silent sites), corresponding to a range in the time of divergence of 26\u201338 Ma. The TREx distances from the divergence of all of the porcine aromatases and the modern forms ranges from 0.082\u20130.116, corresponding to dates of divergence in the range of 27\u201339 Ma. This suggests that the three aromatase paralogs diverged in the late Eocene to mid Oligocene.",
+              "Notably, four of the sites (positions 47, 153, 219, 269) that undergo replacement during the emergence of pig placental aromatase from the last common ancestor are the same as four that arose in the emergence of the human aromatase from its last common ancestor. Of these, the amino acid replacements are identical at two sites (Thr \u2192 Met at site 153; His \u2192 Arg at site 269). The probability associated with randomly observing this pattern is extremely low (0.000021) [",
+              "We thank three anonymous reviewers for their invaluable comments. We also thank Alaric Falcon, Andres A. Kowalski and Ge Zhao for their assistance. This work was supported in part by N.I.H. grants GM 54075 and GM 067439-01 (S.A.B.), N.I.H. grant HD 21961 (R.C.M.S., F.A.S.) and USDA-NRICGP grant 98-35205-6739 (F.A.S., R.C.M.S.).",
+              "Cladogram of the order Artiodactyla showing the extant families and some selected extinct ones. Ruminantia includes the modern families Tragulidae, Giraffidae, Bovidae, Moschidae, and Cervidae, plus a number of extinct families. \"Dichobunidae\" is a paraphyletic assemblage of primitive taxa considered broadly ancestral to the later families. The interrelationships of the families reflect the \"traditional\" relationship based on morphology [85]. Different arrangements based on molecular information [86, 87] would alter the placement of the Camelidae and Hippopotamidae but would make no difference to the arguments presented here concerning the Suoidea. The interrelationships within the Suidae are based on information in several studies [32, 67, 88, 89]. Note that only a couple of extinct suid subfamilies are shown, and that only extant genera of Suinae are shown. Thick, medium-thick and thin lines represent family or above, subfamily and genera, respectively."
+            ]
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">32</td>",
+            "cited_in": [
+              "Cladogram of the order Artiodactyla showing the extant families and some selected extinct ones. Ruminantia includes the modern families Tragulidae, Giraffidae, Bovidae, Moschidae, and Cervidae, plus a number of extinct families. \"Dichobunidae\" is a paraphyletic assemblage of primitive taxa considered broadly ancestral to the later families. The interrelationships of the families reflect the \"traditional\" relationship based on morphology [85]. Different arrangements based on molecular information [86, 87] would alter the placement of the Camelidae and Hippopotamidae but would make no difference to the arguments presented here concerning the Suoidea. The interrelationships within the Suidae are based on information in several studies [32, 67, 88, 89]. Note that only a couple of extinct suid subfamilies are shown, and that only extant genera of Suinae are shown. Thick, medium-thick and thin lines represent family or above, subfamily and genera, respectively."
+            ]
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"left\">Remaining branches</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">232</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">258</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">490</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"left\">Totals</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">255</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">267</td>",
+            "cited_in": []
+          },
+          {
+            "cell_content": "<td xmlns:xlink=\"http://www.w3.org/1999/xlink\" align=\"center\">522</td>",
+            "cited_in": []
+          }
+        ]
+      }
+    ],
+    "figures": [
+      {
+        "fig_id": "F1",
+        "caption": "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">Reactions catalyzed by aromatases on multiple androgenic substrates.<xref ref-type=\"bibr\" rid=\"B44\">44</xref></p>",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC515309/bin/1741-7007-2-19-1.jpg",
+        "caption_citations": [
+          [
+            "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B44\"><citation citation-type=\"book\"><person-group person-group-type=\"author\"><name><surname>Nei</surname><given-names>M</given-names></name><name><surname>Kumar</surname><given-names>S</given-names></name></person-group><source>Molecular Evolution and Phylogenetics</source><year>2000</year><publisher-name>New York: Oxford University Press</publisher-name></citation></ref>"
+          ]
+        ],
+        "paragraphs": [
+          {
+            "text": [
+              "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">Aromatases are cytochrome P450-dependent enzymes that use dioxygen to catalyze a multistep transformation of an androgenic steroid (such as testosterone) to an estrogenic steroid (such as estradiol) (Figure <xref ref-type=\"fig\" rid=\"F1\">1</xref>). The protein plays a key role in normal vertebrate reproductive biology\u2013a role that appears to have arisen before fish and tetrapods (land vertebrates, including mammals) diverged some 375 million years ago [<xref ref-type=\"bibr\" rid=\"B4\">4</xref>]. Aromatase is important in modern medicine as well, especially in breast and other hormone-dependent cancers [<xref ref-type=\"bibr\" rid=\"B5\">5</xref>].</p>",
+              "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">It is important to point out that even an analysis this broad is likely to cover only a small part of a complicated reproductive endocrinology that must be associated with larger litter sizes. For example, the exact nature of the products produced by individual aromatases remains controversial, and may be different in laboratory studies depending on the conditions where they are studied [<xref ref-type=\"bibr\" rid=\"B50\">50</xref>,<xref ref-type=\"bibr\" rid=\"B60\">60</xref>-<xref ref-type=\"bibr\" rid=\"B62\">62</xref>]. This is especially the case with the 19-nortestosterone derivatives in Figure <xref ref-type=\"fig\" rid=\"F1\">1</xref>.</p>"
+            ],
+            "citations": [
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B4\"><citation citation-type=\"journal\"><person-group person-group-type=\"author\"><name><surname>Callard</surname><given-names>GV</given-names></name><name><surname>Pudney</surname><given-names>JA</given-names></name><name><surname>Kendall</surname><given-names>SL</given-names></name><name><surname>Reinboth</surname><given-names>R</given-names></name></person-group><article-title>In vitro conversion of androgen to estrogen in Amphioxus gonadal tissues</article-title><source>Gen Comp Endocrinol</source><year>1984</year><volume>56</volume><fpage>53</fpage><lpage>58</lpage><pub-id pub-id-type=\"pmid\">6541606</pub-id></citation></ref>",
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B5\"><citation citation-type=\"journal\"><person-group person-group-type=\"author\"><name><surname>Wolff</surname><given-names>AC</given-names></name></person-group><article-title>Systemic therapy</article-title><source>Current Opin Oncol</source><year>2002</year><volume>14</volume><fpage>600</fpage><lpage>608</lpage><pub-id pub-id-type=\"doi\">10.1097/00001622-200211000-00003</pub-id></citation></ref>",
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B62\"><citation citation-type=\"journal\"><person-group person-group-type=\"author\"><name><surname>Hofig</surname><given-names>A</given-names></name><name><surname>Simmen</surname><given-names>FA</given-names></name><name><surname>Bazer</surname><given-names>FW</given-names></name><name><surname>Simmen</surname><given-names>RC</given-names></name></person-group><article-title>Effects of insulin-like growth factor-I on aromatase cytochrome P450 activity and oestradiol biosynthesis in preimplantation porcine conceptuses in vitro</article-title><source>J Endocrinol</source><year>1991</year><volume>130</volume><fpage>245</fpage><lpage>250</lpage><pub-id pub-id-type=\"pmid\">1833500</pub-id></citation></ref>",
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B50\"><citation citation-type=\"journal\"><person-group person-group-type=\"author\"><name><surname>Corbin</surname><given-names>CJ</given-names></name><name><surname>Trant</surname><given-names>JM</given-names></name><name><surname>Walters</surname><given-names>KW</given-names></name><name><surname>Conley</surname><given-names>AJ</given-names></name></person-group><article-title>Changes in testosterone metabolism associated with the evolution of placental and gonadal isozymes of porcine aromatase cytochrome P450</article-title><source>Endocrinology</source><year>1999</year><volume>140</volume><fpage>5202</fpage><lpage>5210</lpage><pub-id pub-id-type=\"pmid\">10537150</pub-id><pub-id pub-id-type=\"doi\">10.1210/en.140.11.5202</pub-id></citation></ref>",
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B60\"><citation citation-type=\"journal\"><person-group person-group-type=\"author\"><name><surname>van der Meulen</surname><given-names>J</given-names></name><name><surname>te Kronnie</surname><given-names>G</given-names></name><name><surname>van Deursen</surname><given-names>R</given-names></name><name><surname>Geelen</surname><given-names>J</given-names></name></person-group><article-title>Aromatase activity in individual day-11 pig blastocysts</article-title><source>J Reprod Fertil</source><year>1989</year><volume>87</volume><fpage>783</fpage><lpage>788</lpage><pub-id pub-id-type=\"pmid\">2600924</pub-id><pub-id pub-id-type=\"doi\">10.1530/jrf.0.0870783</pub-id></citation></ref>"
+            ]
+          }
+        ]
+      },
+      {
+        "fig_id": "F2",
+        "caption": "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">Dating the pig duplication events. An evolutionary tree, following the topology of Figure 5, showing estimated TREx distances for individual branches calculated from reconstructed ancestral sequences. The scale corresponds to evolutionary time (in million years) estimated from the TREx's using a first order rate constant for transitions of 3 \u00d7 10<sup>-9 </sup>changes per base per year.</p>",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC515309/bin/1741-7007-2-19-2.jpg",
+        "caption_citations": [
+          []
+        ],
+        "paragraphs": [
+          {
+            "text": [
+              "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">Analogous <italic>f</italic><sub>2 </sub>values were then obtained for other vertebrate aromatase pairs, including fish <italic>vs. </italic>tetrapods (<italic>f</italic><sub>2 </sub>= 0.56), birds versus mammals (<italic>f</italic><sub>2 </sub>= 0.612), primates versus ungulates (<italic>f</italic><sub>2 </sub>= 0.823), and horses versus artiodactyls (<italic>f</italic><sub>2 </sub>= 0.828). Assuming a time-invariant single lineage first order rate constant of 3.6 \u00d7 10<sup>-9 </sup>changes/site/year and an equilibrium <italic>f</italic><sub>2 </sub>of 0.54, the corresponding dates of divergence are calculated to be 435, 258, 67, and 65 Ma respectively, with the oldest dates being the least precise. The last three of these dates of divergence are similar to those suggested by the paleontological record [<xref ref-type=\"bibr\" rid=\"B28\">28</xref>], within the error of the calculation, which reflects the modest number of characters used to calculate the <italic>f</italic><sub>2 </sub>values. A tree for the artiodactyl lineage was constructed from the corresponding TREx distances (Figure <xref ref-type=\"fig\" rid=\"F2\">2</xref>). This was found to be consistent with the tree constructed from other metrics.</p>"
+            ],
+            "citations": [
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B28\"><citation citation-type=\"book\"><person-group person-group-type=\"author\"><name><surname>Carroll</surname><given-names>RL</given-names></name></person-group><source>Vertebrate Paleontology and Evolution</source><year>1988</year><publisher-name>New York City: WH Freeman &amp; Co</publisher-name></citation></ref>"
+            ]
+          }
+        ]
+      },
+      {
+        "fig_id": "F3",
+        "caption": "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">The amino acid alignment of exon 4 of two aromatase isoforms from both peccary and babirusa sequences with exon 4 of pig aromatase isoforms ovarian, fetal, and placental. Asterisks represent conserved sites.</p>",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC515309/bin/1741-7007-2-19-3.jpg",
+        "caption_citations": [
+          []
+        ],
+        "paragraphs": [
+          {
+            "text": [
+              "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">To further correlate the duplication of the genes with the fossil record, genomic DNA was analyzed from relatives of <italic>Sus scrofa</italic>. Both peccary and babirusa seminal plasma (<italic>Tayassu pecari</italic>, from the Center for Reproduction of Endangered Species, Zoological Society of San Diego; <italic>Babyrousa babyrussa</italic>, from the Bronx Zoo, New York) was probed by PCR (Polymerase Chain Reaction) amplification using exon 4-specific primers [<xref ref-type=\"bibr\" rid=\"B32\">32</xref>]. Bands having the sizes expected for the corresponding aromatases were observed by agarose gel electrophoresis. Based on sequence similarity, two isoforms of aromatase were obtained from both peccary and babirusa as clones derived from the PCR products (Figure <xref ref-type=\"fig\" rid=\"F3\">3</xref>). This establishes that at least one of the duplications occurred before the Tayassuidae (the peccaries) diverged from the Suidae (the true pigs) ca. 35 Ma [<xref ref-type=\"bibr\" rid=\"B33\">33</xref>,<xref ref-type=\"bibr\" rid=\"B34\">34</xref>].</p>"
+            ],
+            "citations": [
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B34\"><citation citation-type=\"book\"><person-group person-group-type=\"author\"><name><surname>Fortelius</surname><given-names>M</given-names></name><name><surname>van der Made</surname><given-names>J</given-names></name><name><surname>Bernor</surname><given-names>RL</given-names></name></person-group><person-group person-group-type=\"editor\"><name><surname>Bernor RL, Fahlbusch V, Mittmann HW</surname></name></person-group><article-title>Middle and Late Miocene Suoidea of Central Europe and the Eastern Mediterranea. Evolution, biogeography and paleoecology</article-title><source>In The Evolution of Western Eurasian Neogene Mammal Fanas</source><year>1996</year><publisher-name>New York City: Columbia University Press</publisher-name><fpage>348</fpage><lpage>377</lpage></citation></ref>",
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B32\"><citation citation-type=\"book\"><person-group person-group-type=\"author\"><name><surname>Graddy</surname><given-names>LG</given-names></name></person-group><article-title>Porcine aromatase isoforms are encoded by three distinct genes that have undergone positive selection</article-title><source>PhD thesis</source><year>1999</year><publisher-name>University of Florida, Gainesville, Animal Sciences Department</publisher-name></citation></ref>",
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B33\"><citation citation-type=\"book\"><person-group person-group-type=\"author\"><name><surname>Cooke</surname><given-names>HBS</given-names></name><name><surname>Wilkinson</surname><given-names>AF</given-names></name></person-group><person-group person-group-type=\"editor\"><name><surname>Maglio VJ, Cooke HBS</surname></name></person-group><article-title>Suidae and Tayassuidae</article-title><source>In Evolution of African Mammals</source><year>1978</year><publisher-name>Cambridge: Harvard University Press</publisher-name><fpage>438</fpage><lpage>482</lpage></citation></ref>"
+            ]
+          }
+        ]
+      },
+      {
+        "fig_id": "F4",
+        "caption": "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">Cladogram of the order Artiodactyla showing the extant families and some selected extinct ones. Ruminantia includes the modern families Tragulidae, Giraffidae, Bovidae, Moschidae, and Cervidae, plus a number of extinct families. \"Dichobunidae\" is a paraphyletic assemblage of primitive taxa considered broadly ancestral to the later families. The interrelationships of the families reflect the \"traditional\" relationship based on morphology [85]. Different arrangements based on molecular information [86, 87] would alter the placement of the Camelidae and Hippopotamidae but would make no difference to the arguments presented here concerning the Suoidea. The interrelationships within the Suidae are based on information in several studies [32, 67, 88, 89]. Note that only a couple of extinct suid subfamilies are shown, and that only extant genera of Suinae are shown. Thick, medium-thick and thin lines represent family or above, subfamily and genera, respectively.</p>",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC515309/bin/1741-7007-2-19-4.jpg",
+        "caption_citations": [
+          []
+        ],
+        "paragraphs": [
+          {
+            "text": [
+              "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">Other data suggest that small litters are in fact the primitive artiodactyl condition. Tragulids (mouse deer or chevrotains) are surviving small, primitive ruminants that are not too dissimilar from <italic>Diacodexis </italic>in body form, but only have one-two young per litter. Additionally, fossil record data on pregnant oreodonts (an extinct group probably related to the ruminant/camelid artiodactyl lineage, but with a suoid-like plesiomorphic postcranial morphology) shows that they also only had one-two young [<xref ref-type=\"bibr\" rid=\"B36\">36</xref>,<xref ref-type=\"bibr\" rid=\"B37\">37</xref>]. A cladogram of the Artiodactyla (Figure <xref ref-type=\"fig\" rid=\"F4\">4</xref>) illustrates the probable acquisition of multiparous versus uniparous reproductive strategies, and places the character of litters with typically more than two members emerging just before the divergence of Tayassuidae and Suidae.</p>",
+              "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">It goes without saying that still more factors might be associated with an increase in litter size from one-two (presumed in <italic>Diacodexis</italic>, see Figure <xref ref-type=\"fig\" rid=\"F4\">4</xref>) to 12 or more in domestic swine. Most trivially, this increase might be associated with an increase in ovulation rate, and/or an adjustment in the structures and binding specificities of estrogen receptors [<xref ref-type=\"bibr\" rid=\"B64\">64</xref>].</p>",
+              "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">Nevertheless, the first aromatase duplication, shared by pigs and peccaries, appears to have happened in the late Eocene (recognizing the error associated with these dates), around 35 Ma (Figure <xref ref-type=\"fig\" rid=\"F4\">4</xref>). This was a time of great global change, with dramatic cooling in the higher latitudes. More archaic kinds of mammals (e.g., some earlier families of perissodactyls and artiodactyls) became extinct, while many modern families (including the Suidae and Tayassuidae) became established at this time [<xref ref-type=\"bibr\" rid=\"B65\">65</xref>]. Suoids differed from other contemporaneous ungulates in their commitment to omnivory, even though a few forms, such as the modern warthog <italic>Phacochoerus aethiopicus</italic>, are more specialized herbivores. Perhaps the ability to bear a slightly larger litter than other artiodactyls was advantageous to them in this time of global ecological transition. However, it should be noted that larger litters usually mean altricial (i.e., relatively underdeveloped) young, a reproductive strategy apparently not available to larger, cursorial (running-adapted) ungulates, which give birth to precocial (i.e., well developed) young that are fully locomotory at birth [<xref ref-type=\"bibr\" rid=\"B66\">66</xref>].</p>",
+              "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">The second aromatase duplication, with the ensuing capacity to produce multiple young, probably occurred within the family Suidae, some time during the Oligocene. The molecular data suggest dates of divergence between porcine fetal and placental aromatases as between 27\u201338 Ma, and the earliest known suid is of early Oligocene age [<xref ref-type=\"bibr\" rid=\"B67\">67</xref>], around 33 Ma (Figure <xref ref-type=\"fig\" rid=\"F4\">4</xref>). Large litters may have characterized the entire suid family. While the extant subfamily Suinae is primarily a Plio-Pleistocene radiation, during the Oligocene to Pliocene suids were exceedingly diverse taxonomically (with six other subfamilies known) as well as individually abundant as fossils [<xref ref-type=\"bibr\" rid=\"B32\">32</xref>,<xref ref-type=\"bibr\" rid=\"B33\">33</xref>,<xref ref-type=\"bibr\" rid=\"B67\">67</xref>]. In contrast, the predominantly North American tayassuids were never as diverse. It is possible that this tremendous Old-World diversity of suids, which continues to this day, is related to their capacity for the production of large litters.</p>"
+            ],
+            "citations": [
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B36\"><citation citation-type=\"journal\"><person-group person-group-type=\"author\"><name><surname>Franzen</surname><given-names>JL</given-names></name></person-group><article-title>Fossiler Paarhufer mit Embryo</article-title><source>Natur und Museum</source><year>1997</year><volume>127</volume><fpage>61</fpage><lpage>62</lpage></citation></ref>",
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B37\"><citation citation-type=\"journal\"><person-group person-group-type=\"author\"><name><surname>O'Harra</surname><given-names>CC</given-names></name></person-group><article-title>A fossil mammal with unborn twins</article-title><source>Science</source><year>1930</year><volume>71</volume><fpage>341</fpage></citation></ref>",
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B64\"><citation citation-type=\"journal\"><person-group person-group-type=\"author\"><name><surname>Rothschild</surname><given-names>M</given-names></name><name><surname>Jacobson</surname><given-names>C</given-names></name><name><surname>Vaske</surname><given-names>D</given-names></name><name><surname>Tuggle</surname><given-names>C</given-names></name><name><surname>Wang</surname><given-names>L</given-names></name><name><surname>Short</surname><given-names>T</given-names></name><name><surname>Eckardt</surname><given-names>G</given-names></name><name><surname>Sasaki</surname><given-names>S</given-names></name><name><surname>Vincent</surname><given-names>A</given-names></name><name><surname>McLaren</surname><given-names>D</given-names></name><name><surname>Southwood</surname><given-names>O</given-names></name><name><surname>van der Steen</surname><given-names>H</given-names></name><name><surname>Mileham</surname><given-names>A</given-names></name><name><surname>Plastow</surname><given-names>G</given-names></name></person-group><article-title>The estrogen receptor locus is associated with a major gene influencing litter size in pigs</article-title><source>Proc Natl Acad Sci U S A</source><year>1996</year><volume>93</volume><fpage>201</fpage><lpage>205</lpage><pub-id pub-id-type=\"pmid\">8552604</pub-id><pub-id pub-id-type=\"doi\">10.1073/pnas.93.1.201</pub-id></citation></ref>",
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B66\"><citation citation-type=\"book\"><person-group person-group-type=\"author\"><name><surname>Eisenberg</surname><given-names>JF</given-names></name></person-group><source>The Mammalian Radiations An Analysis of Trends in Evolution, Adaptation, and Behavior</source><year>1981</year><publisher-name>Chicago: University of Chicago Press</publisher-name></citation></ref>",
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B65\"><citation citation-type=\"journal\"><person-group person-group-type=\"author\"><name><surname>Janis</surname><given-names>CM</given-names></name></person-group><article-title>Ungulate teeth, diets, and climatic changes at the Eocene/Oligocene boundary</article-title><source>Zoo-Anal Complex Sy</source><year>1997</year><volume>100</volume><fpage>203</fpage><lpage>220</lpage></citation></ref>",
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B33\"><citation citation-type=\"book\"><person-group person-group-type=\"author\"><name><surname>Cooke</surname><given-names>HBS</given-names></name><name><surname>Wilkinson</surname><given-names>AF</given-names></name></person-group><person-group person-group-type=\"editor\"><name><surname>Maglio VJ, Cooke HBS</surname></name></person-group><article-title>Suidae and Tayassuidae</article-title><source>In Evolution of African Mammals</source><year>1978</year><publisher-name>Cambridge: Harvard University Press</publisher-name><fpage>438</fpage><lpage>482</lpage></citation></ref>",
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B32\"><citation citation-type=\"book\"><person-group person-group-type=\"author\"><name><surname>Graddy</surname><given-names>LG</given-names></name></person-group><article-title>Porcine aromatase isoforms are encoded by three distinct genes that have undergone positive selection</article-title><source>PhD thesis</source><year>1999</year><publisher-name>University of Florida, Gainesville, Animal Sciences Department</publisher-name></citation></ref>",
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B67\"><citation citation-type=\"journal\"><person-group person-group-type=\"author\"><name><surname>Pickford</surname><given-names>M</given-names></name></person-group><article-title>Old World suoid systematics, phylogeny, biogeography, and biostratigraphy</article-title><source>Paleontologia Evoluc</source><year>1993</year><volume>26</volume><fpage>237</fpage><lpage>269</lpage></citation></ref>"
+            ]
+          }
+        ]
+      },
+      {
+        "fig_id": "F5",
+        "caption": "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">Phylogenetic tree for the 18 vertebrate aromatase genes. Numbers above the branches represent the K<sub>A</sub>/K<sub>s </sub>ratios, while numbers below indicate branches highlighted in Figure 6. Single and double asterisks represent bootstrap values of 95\u201399% and 100%, respectively. The following sequences were used: <italic>Tilapia nilotica </italic>(rainbow trout), gi:1613859, <italic>Oryzias latipes </italic>(medaka), gi:1786171, <italic>Danio rerio </italic>(zebrafish), gi:2306966, <italic>Carassius auratus </italic>(goldfish, ovary), gi:2662330, <italic>Ictalurus punctatus </italic>(catfish), gi:912802, <italic>Carassius auratus </italic>(goldfish, brain), gi:2662328, <italic>Sus scrofa </italic>(pig) placental, isoform 2, gi:1762232, <italic>Sus scrofa </italic>(pig) embryo, isoform 3, gi:1244543, <italic>Sus scrofa </italic>(pig) ovary, isoform 1, gi:1928957, <italic>Bos taurus </italic>(ox), gi:665546, <italic>Equus caballus </italic>(horse), gi:2921277, <italic>Mus musculus </italic>(mouse), gi:3046857, <italic>Rattus norvegicus </italic>(rat), gi:203804, <italic>Oryctolagus cuniculus </italic>(rabbit), gi:2493381, <italic>Homo sapiens </italic>(human), gi:28846, <italic>Gallus gallus </italic>(chicken), gi:211703, <italic>Poephila guttata </italic>(zebra finch, ovary), gi:926845, <italic>Ovis aries </italic>(sheep), gi:7673985.</p>",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC515309/bin/1741-7007-2-19-5.jpg",
+        "caption_citations": [
+          []
+        ],
+        "paragraphs": [
+          {
+            "text": [
+              "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">A complete maximum likelihood analysis of the aromatase gene family was performed using the PAUP and PAML programs. The resulting tree, generated in PAUP, is shown in Figure <xref ref-type=\"fig\" rid=\"F5\">5</xref>, with parameters estimated using PAML. Once more, the generation of paralogs in the pig was found to have occurred after the divergence of pigs from oxen. A high K<sub>A</sub>/K<sub>S </sub>value (0.93) was again found in the divergence of the swine isoforms on the branch leading to the ancestor of the placental and embryonic enzymes following their divergence from the pig ovarian enzyme. The distribution of substitutions along this branch is consistent with altered functional constraints for the placental and embryonic enzymes compared with their extinct and extant counterparts (Tables <xref ref-type=\"table\" rid=\"T1\">1</xref> and <xref ref-type=\"table\" rid=\"T2\">2</xref>) [<xref ref-type=\"bibr\" rid=\"B44\">44</xref>].</p>",
+              "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">We correlated the episode of rapid sequence change during the emergence of the embryonic and placental paralogs with the structural biology of aromatase. A homology model of aromatase was built from progesterone 21-hydroxylase from rabbit liver (coordinates from PDB file 1DT6) [<xref ref-type=\"bibr\" rid=\"B45\">45</xref>], a homologous cytochrome P450-dependent monooxygenase. Residues undergoing replacement during the episodes represented by branches in Figure <xref ref-type=\"fig\" rid=\"F5\">5</xref> (branches 1\u20133) are highlighted in color on the 3D model using a program in prototype with HyperChem (Figure <xref ref-type=\"fig\" rid=\"F6\">6</xref>).</p>",
+              "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">Multiple features within the pattern of amino acid replacement were apparent. First, the sites accepting amino acid replacements in the branches with low K<sub>A</sub>/K<sub>S </sub>values (as represented by branch 2 in Figure <xref ref-type=\"fig\" rid=\"F5\">5</xref>) were typically scattered without any obvious pattern over the surface of the protein. This is expected for neutral drift, although an adaptive role for these replacements is not excluded by this analysis.</p>",
+              "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">Further, this hypothesis generation itself generates discoveries that might lead to their own hypotheses. An analysis of the evolutionary branches separating pigs and humans suggests an additional episode of adaptive change. The branch leading to the ancestor of human aromatase (branch 3) has a remarkably high K<sub>A</sub>/K<sub>S </sub>ratio (13 non-synonymous and no synonymous changes; Figure <xref ref-type=\"fig\" rid=\"F5\">5</xref>). This <italic>is </italic>a K<sub>A</sub>/K<sub>S </sub>ratio greater than unity, and does (pending evaluation of its statistical significance) compel the inference of an episode of adaptive change. Intriguingly, these changes are also clustered in the same regions of the structure as those changing along branch 1 leading to the stem fetal/placental enzyme, near the substrate and co-reductant binding sites. This implies that the substrate/product specificity of the ancestral aromatase protein was not like that of either the human or the pig placental forms, but rather reflects features that arose convergently in these two species [<xref ref-type=\"bibr\" rid=\"B58\">58</xref>].</p>"
+            ],
+            "citations": [
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B44\"><citation citation-type=\"book\"><person-group person-group-type=\"author\"><name><surname>Nei</surname><given-names>M</given-names></name><name><surname>Kumar</surname><given-names>S</given-names></name></person-group><source>Molecular Evolution and Phylogenetics</source><year>2000</year><publisher-name>New York: Oxford University Press</publisher-name></citation></ref>",
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B45\"><citation citation-type=\"journal\"><person-group person-group-type=\"author\"><name><surname>Williams</surname><given-names>PA</given-names></name><name><surname>Cosme</surname><given-names>J</given-names></name><name><surname>Sridhar</surname><given-names>V</given-names></name><name><surname>Johnson</surname><given-names>EF</given-names></name><name><surname>McRee</surname><given-names>DE</given-names></name></person-group><article-title>Mammalian microsomal cytochrome P450 monooxygenase: structural adaptations for membrane binding and functional diversity</article-title><source>Mol Cell</source><year>2000</year><volume>5</volume><fpage>121</fpage><lpage>131</lpage><pub-id pub-id-type=\"pmid\">10678174</pub-id><pub-id pub-id-type=\"doi\">10.1016/S1097-2765(00)80408-6</pub-id></citation></ref>",
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B58\"><citation citation-type=\"journal\"><person-group person-group-type=\"author\"><name><surname>Stewart</surname><given-names>CB</given-names></name><name><surname>Schilling</surname><given-names>JW</given-names></name><name><surname>Wilson</surname><given-names>AC</given-names></name></person-group><article-title>Adaptive evolution in the stomach lysozymes of foregut fermenters</article-title><source>Nature</source><year>1987</year><volume>330</volume><fpage>401</fpage><lpage>404</lpage><pub-id pub-id-type=\"pmid\">3120013</pub-id><pub-id pub-id-type=\"doi\">10.1038/330401a0</pub-id></citation></ref>"
+            ]
+          }
+        ]
+      },
+      {
+        "fig_id": "F6",
+        "caption": "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">The distribution of amino acid replacements on the tertiary structure of cytochrome P450 homolog. Amino acid replacements occurring along branches highlighted in Figure 5 are shown in red. The substrate binding pocket and nicotinamide co-factor are colored yellow and purple, respectively. The sites that bind the co-reductant are highlighted in green for reference.</p>",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC515309/bin/1741-7007-2-19-6.jpg",
+        "caption_citations": [
+          []
+        ],
+        "paragraphs": [
+          {
+            "text": [
+              "<p xmlns:xlink=\"http://www.w3.org/1999/xlink\">We correlated the episode of rapid sequence change during the emergence of the embryonic and placental paralogs with the structural biology of aromatase. A homology model of aromatase was built from progesterone 21-hydroxylase from rabbit liver (coordinates from PDB file 1DT6) [<xref ref-type=\"bibr\" rid=\"B45\">45</xref>], a homologous cytochrome P450-dependent monooxygenase. Residues undergoing replacement during the episodes represented by branches in Figure <xref ref-type=\"fig\" rid=\"F5\">5</xref> (branches 1\u20133) are highlighted in color on the 3D model using a program in prototype with HyperChem (Figure <xref ref-type=\"fig\" rid=\"F6\">6</xref>).</p>"
+            ],
+            "citations": [
+              "<ref xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"B45\"><citation citation-type=\"journal\"><person-group person-group-type=\"author\"><name><surname>Williams</surname><given-names>PA</given-names></name><name><surname>Cosme</surname><given-names>J</given-names></name><name><surname>Sridhar</surname><given-names>V</given-names></name><name><surname>Johnson</surname><given-names>EF</given-names></name><name><surname>McRee</surname><given-names>DE</given-names></name></person-group><article-title>Mammalian microsomal cytochrome P450 monooxygenase: structural adaptations for membrane binding and functional diversity</article-title><source>Mol Cell</source><year>2000</year><volume>5</volume><fpage>121</fpage><lpage>131</lpage><pub-id pub-id-type=\"pmid\">10678174</pub-id><pub-id pub-id-type=\"doi\">10.1016/S1097-2765(00)80408-6</pub-id></citation></ref>"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

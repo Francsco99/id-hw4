@@ -114,11 +114,26 @@ class XmlElement:
                 "cell_content": etree.tostring(cella, encoding="unicode")
                 if cella is not None
                 else "",
-                "cited_in": self.extract_citations(cella),
+                "cited_in": self.extract_cell_citations(cella),
             }
             temp_table["cells"].append(cell_content_element)
 
         return temp_table
+    
+###############################
+#--ESTRAZIONE CITAZIONI CELLS-#
+###############################
+    def extract_cell_citations(self, cell_content):
+        if cell_content is None or cell_content.text is None:
+            #print("Il contenuto della cella è vuoto.")
+            return []
+
+        cell_citations = self.root.xpath(f'//p[contains(text(), "{cell_content.text}")]')
+        citazioni_cella = [ct.text for ct in cell_citations]
+    
+        #print(citazioni_cella)
+        return citazioni_cella
+
 
 ########################
 #--ESTRAZIONE FIGURES--#
@@ -137,7 +152,6 @@ class XmlElement:
             "caption": "",
             "source": "",
             "caption_citations" : "",
-            "foot": "",
             "paragraphs": 
                 [
                 {
